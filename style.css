@@ -1,0 +1,23 @@
+.flexContainer{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;   
+    margin: 2% 8%
+}
+
+#dataBuscada{
+    width: 30%;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+
+#botao{
+    margin: 20px 0;
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+
