@@ -1,3 +1,8 @@
+body{
+    font-family: 'Kalam', cursive;
+    background: url('starredSky.jpg');
+}
+
 .flexContainer{
     display: flex;
     flex-flow: column wrap;
@@ -6,18 +11,61 @@
     margin: 2% 8%
 }
 
+h1{
+    font-size: 2.5em;
+    color: #dcdcdc;
+}
+
 #dataBuscada{
     width: 30%;
     padding: 10px;
     border: solid 2px black;
     border-radius: 20px;
+    font-family: 'Kalam', cursive;
 }
 
 #botao{
     margin: 20px 0;
+    width: 10%;
     border: none;
-    border-radius: 15px;
-    padding: 8px;
+    border-radius: 2em;
+    padding: 1em;
+    font-family: 'Kalam', cursive;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+#div-video{
+    justify-content: center;
+    align-items: center;
+}
+
+#video{
+    height: 80vh;
+    width: 60%;
+}
+
+.container-text{
+    display: flex;
+    background-color: #dcdcdc;
+    flex-direction: column;
+    margin: 2em;
+    border: 0.2em solid #dcdcdc;
+    border-radius: 2em;
+    box-shadow: 0.7em 0.7em 2em rgb(27, 27, 27);
+}
+
+#titulo{
+    padding-top: 1.2em;
+    text-align: center;
+    font-size: 2em;
+}
+
+#explicacao{
+    padding: 2em;
+    text-align: justify;
+    line-height: 1.5em;
+    font-size: 1.2em;
 }
 
 
